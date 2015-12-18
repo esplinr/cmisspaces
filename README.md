@@ -34,3 +34,31 @@ FlexSpaces Google Code
 FlexibleShare 
 
 License: GNU Lesser GPL
+
+# CmisSpacesInBrowser  
+
+Application Server:
+
+1. Install "cmis-spaces" webapp folder in your tomcat/webapps folder
+
+2. Configure /cmis-spaces/cmis-spaces-flex/CMISSpacesConfig.xml It needs to be configured for the CMIS atompub service URL for your repository.
+
+3. The dynamic urls in cmis-spaces/WEB-INF/flex/proxy-config.xml need to have the cmis atompub service path for your repository (if not alfresco)
+
+Client machine:
+
+1. Install Flash player 10 or newer (requires a flash 10 feature) for your browser
+
+2. Run in your browser:
+
+http://localhost:8080/cmis-spaces/cmis-spaces-flex/CMISSpaces.html
+
+#  CmisSpacesAir  
+
+CMIS Spaces AIR Install instructions:
+
+1. Install Adobe AIR 1.5+
+
+2. Run CMISSpacesAir-BldNum.air
+
+2. The CMISSpacesConfig.xml file in <program files>/CMISSpaces needs to be configured for the CMIS atompub service URL for your repository.
